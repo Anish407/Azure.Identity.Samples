@@ -1,0 +1,15 @@
+{
+  "RoleName": "MyReadOnlyRolemycont1",
+  "Type": "CustomRole",
+  "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ],
+  "Permissions": [
+    {
+      "DataActions": [
+        "Microsoft.DocumentDB/databaseAccounts/readMetadata",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/read",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/executeQuery",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/readChangeFeed"
+      ]
+    }
+  ]
+}

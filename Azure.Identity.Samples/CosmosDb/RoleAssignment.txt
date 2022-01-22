@@ -1,0 +1,36 @@
+﻿az cosmosdb sql role definition list --account-name $accountName --resource-group $resourceGroupName
+
+Copy the ID 
+
+resourceGroupName='rg-del'
+accountName='rbacsampleanish'
+$readOnlyRoleDefinitionId = '/subscriptions/{subid}/resourceGroups/rg-del/providers/Microsoft.DocumentDB/databaseAccounts/rbacsampleanish/sqlRoleDefinitions/00000000-0000-0000-0000-000000000001' # as fetched above
+$principalId =  (myObjectId)
+
+Step 1: Create a new Role, Role definition is in ReaderRole.Json
+az cosmosdb sql role assignment create --account-name $accountName --resource-group $resourceGroupName --scope "/dbs/Demo/colls/mycont1" --principal-id $principalId --role-definition-id $readOnlyRoleDefinitionId
+
+
+Step 2: List the role created
+az cosmosdb sql role definition list --account-name $accountName --resource-group $resourceGroupName
+ from the output copy the id of the new role
+
+
+Step 3: Assign the Reader Role To a users/application/ad group (in my case I have assigned it to my ObjectId )
+
+az cosmosdb sql role assignment create --account-name 
+$accountName --resource-group $resourceGroupName 
+--scope "/dbs/Demo/colls/mycont1" 
+--principal-id $principalId 
+--role-definition-id $reader
+
+
+
+Install-Package Azure.Identity -Version 1.5.0
+Install-Package Microsoft.Azure.Cosmos -Version 3.23.0
+
+Assign Role
+
+
+
+

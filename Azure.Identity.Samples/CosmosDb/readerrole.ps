@@ -1,0 +1,10 @@
+$resourceGroupName = "rg-del"
+$accountName = "rbacsampleanish"
+
+az cosmosdb sql role definition create --account-name $accountName --resource-group $resourceGroupName --body @role-definition-ro.json
+
+-- List the Role
+
+az cosmosdb sql role definition list --account-name $accountName --resource-group $resourceGroupName
+
+Copy the Id from the output

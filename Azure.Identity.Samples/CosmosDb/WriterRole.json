@@ -1,0 +1,15 @@
+{
+  "RoleName": "MyWriteUpdateRole",
+  "Type": "CustomRole",
+  "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ],
+  "Permissions": [
+    {
+      "DataActions": [
+        "Microsoft.DocumentDB/databaseAccounts/readMetadata",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/create",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/upsert",
+        "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/replace"
+      ]
+    }
+  ]
+}
