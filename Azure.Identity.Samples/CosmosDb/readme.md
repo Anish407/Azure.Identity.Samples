@@ -27,8 +27,8 @@ $accountName --resource-group $resourceGroupName
 <p> The role is scoped to the container "/dbs/Demo/colls/mycont1"
 
 / -> (account-level), </br>
-/dbs/<database-name>  -> (database-level), </br>
-/dbs/<database-name>/colls/<container-name> ->(container-level) </br>
+/dbs/{database-name}  -> (database-level), </br>
+/dbs/{database-name}/colls/{container-name}  ->(container-level) </br>
 </p>
 
 <h1>Run the Application</h1>
