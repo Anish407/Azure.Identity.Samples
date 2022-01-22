@@ -24,7 +24,7 @@ $accountName --resource-group $resourceGroupName
 --principal-id $principalId 
 --role-definition-id $reader
 </code>
-<p> The role is scoped to the container Check "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ] section in  <a href='./ReaderRole.json'>ReaderRole.Json</a>
+<p> The role is scoped to the container Check <code> "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ]  </code> section in  <a href='./ReaderRole.json'>ReaderRole.Json</a>
 
 / -> (account-level), </br>
 /dbs/{database-name}  -> (database-level), </br>
