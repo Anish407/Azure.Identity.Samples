@@ -11,5 +11,5 @@ Will Keep adding more samples.
 
 <h1>Contents</h1>
 <ul>
- <li>Connect to CosmosDB without any keys/ connection strings.</li>
+ <li><a href="./Azure.Identity.Samples/CosmosDb"> Connect to CosmosDB without any keys/ connection strings.</a></li>
 </ul>
