@@ -26,6 +26,7 @@ $accountName --resource-group $resourceGroupName
 </code></br>
 <p> The role is scoped to the container Check <code> "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ]  </code> section in  <a href='./ReaderRole.json'>ReaderRole.Json</a>
 </br>
+</br>
 / -> (account-level), </br>
 /dbs/{database-name}  -> (database-level), </br>
 /dbs/{database-name}/colls/{container-name}  ->(container-level) </br>
@@ -36,7 +37,6 @@ $accountName --resource-group $resourceGroupName
   <li> Install-Package Azure.Identity -Version 1.5.0 </li>
   <li> Install-Package Microsoft.Azure.Cosmos -Version 3.23.0 </li>
 </ul>
-</br>
 <p> 
 I have created a DataBase named "Demo" and a Container named "mycont1".
 I have assigned the reader role to my id, But in the solution i try to read and then create an item (<a href="./ConnectToCosmosDb.cs">ConnectToCosmosDb.cs</a>) which will throw an exception. So to make it work just create a write role and assign it to an application/user/group where the solution will run.  
