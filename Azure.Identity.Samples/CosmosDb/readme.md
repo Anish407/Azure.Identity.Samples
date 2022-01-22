@@ -24,6 +24,12 @@ $accountName --resource-group $resourceGroupName
 --principal-id $principalId 
 --role-definition-id $reader
 </code>
+<p> The role is scoped to the container "/dbs/Demo/colls/mycont1"
+
+/ -> (account-level),
+/dbs/<database-name>  -> (database-level),
+/dbs/<database-name>/colls/<container-name> ->(container-level)
+</p>
 
 <h1>Run the Application</h1>
 <ul>
