@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.31911.260
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azure.Identity.Samples", "Azure.Identity.Samples\Azure.Identity.Samples.csproj", "{65343356-3B4F-41D3-902F-84951D5B7EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncAppToStorageAccountsRBAC", "FuncAppToStorageAccountsRBAC\FuncAppToStorageAccountsRBAC.csproj", "{F1AC1D1D-C565-4152-B93B-778DE6216319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncAppToStorageAccountsRBAC", "FuncAppToStorageAccountsRBAC\FuncAppToStorageAccountsRBAC.csproj", "{F1AC1D1D-C565-4152-B93B-778DE6216319}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage Accounts", "Storage Accounts", "{3660702F-2C5D-44FE-8AFA-B442155C0E1B}"
 EndProject
