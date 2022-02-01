@@ -17,6 +17,7 @@ for ex: the regions where it has been replicated , What is the consistency level
 
 
 <h1>Assign the Reader Role To a users/application/ad group (in my case I have assigned it to my ObjectId) </h1>
+<code>$reader=(az cosmosdb sql role definition list --account-name $acc --resource-group $rg --query "[?roleName=='MyReadOnlyRolemycont1'].id" -o json) </code></br></br>
 <code>
 az cosmosdb sql role assignment create --account-name 
 $accountName --resource-group $resourceGroupName 
@@ -24,6 +25,7 @@ $accountName --resource-group $resourceGroupName
 --principal-id $principalId 
 --role-definition-id $reader
 </code></br>
+
 <p> The role is scoped to the container Check <code> "AssignableScopes": [ "/dbs/Demo/colls/mycont1" ]  </code> section in  <a href='./ReaderRole.json'>ReaderRole.Json</a>
 </br>
 </br>
