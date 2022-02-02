@@ -13,5 +13,5 @@ Will Keep adding more samples.
 <ul>
  <li><a href="./Azure.Identity.Samples/CosmosDb"> Connect to CosmosDB without any keys/ connection strings.</a></li>
  <li><a href="./FuncAppToStorageAccountsRBAC"> Connect to Table and Blob Storage without any keys/ connection strings.</a></li>
- <li>Event Grid: <a href="./SendToEventGrid">Console App That publishes events to Event Grid</a><a href="./CustomTopicReceiver">Event Reciever Function App</a></li>
+ <li>Event Grid: <a href="./SendToEventGrid">Console App That publishes events to Event Grid</a> and <a href="./CustomTopicReceiver">Event Reciever Function App</a></li>
 </ul>
