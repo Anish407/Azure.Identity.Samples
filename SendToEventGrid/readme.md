@@ -1,4 +1,4 @@
-<h1>Publish to Event Grid using RBAC<h1>
+<h1>Publish to Event Grid using RBAC</h1>
 <ul>
   <li>Assign the role Event Grid Data Sender to a user/group/application.</li>  
   <li> 
