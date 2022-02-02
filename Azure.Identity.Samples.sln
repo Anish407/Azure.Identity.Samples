@@ -9,6 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncAppToStorageAccountsRBA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage Accounts", "Storage Accounts", "{3660702F-2C5D-44FE-8AFA-B442155C0E1B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventGrid", "EventGrid", "{733F967A-82FC-46B4-8CFA-1731F392002A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Payment Azure\rbac.jpg = ..\..\..\Payment Azure\rbac.jpg
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendToEventGrid", "SendToEventGrid\SendToEventGrid.csproj", "{77D3E2FE-6220-44B0-8FAA-242629AB6B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomTopicReceiver", "CustomTopicReceiver\CustomTopicReceiver.csproj", "{DA824684-77AE-49C1-815D-08B6AD65EFB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +32,22 @@ Global
 		{F1AC1D1D-C565-4152-B93B-778DE6216319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1AC1D1D-C565-4152-B93B-778DE6216319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1AC1D1D-C565-4152-B93B-778DE6216319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77D3E2FE-6220-44B0-8FAA-242629AB6B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77D3E2FE-6220-44B0-8FAA-242629AB6B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77D3E2FE-6220-44B0-8FAA-242629AB6B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77D3E2FE-6220-44B0-8FAA-242629AB6B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA824684-77AE-49C1-815D-08B6AD65EFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA824684-77AE-49C1-815D-08B6AD65EFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA824684-77AE-49C1-815D-08B6AD65EFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA824684-77AE-49C1-815D-08B6AD65EFB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F1AC1D1D-C565-4152-B93B-778DE6216319} = {3660702F-2C5D-44FE-8AFA-B442155C0E1B}
+		{77D3E2FE-6220-44B0-8FAA-242629AB6B41} = {733F967A-82FC-46B4-8CFA-1731F392002A}
+		{DA824684-77AE-49C1-815D-08B6AD65EFB0} = {733F967A-82FC-46B4-8CFA-1731F392002A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3B95D6A-52A5-4D22-BC53-93A3F0158A62}
