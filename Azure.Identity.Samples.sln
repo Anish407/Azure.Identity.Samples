@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reciever", "Reciever", "{05
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusSenderFunc", "ServiceBusSenderFunc\ServiceBusSenderFunc.csproj", "{2B035E3B-BACB-4442-BDF9-1DD485AC0BC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvcBusMsiReceiver", "SvcBusMsiReceiver\SvcBusMsiReceiver.csproj", "{830C539E-75D2-45A8-B856-F648CFF984A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +56,10 @@ Global
 		{2B035E3B-BACB-4442-BDF9-1DD485AC0BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B035E3B-BACB-4442-BDF9-1DD485AC0BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B035E3B-BACB-4442-BDF9-1DD485AC0BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C539E-75D2-45A8-B856-F648CFF984A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C539E-75D2-45A8-B856-F648CFF984A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C539E-75D2-45A8-B856-F648CFF984A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C539E-75D2-45A8-B856-F648CFF984A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 		{3E2D1792-0D4B-461D-926A-306203BBBFB8} = {F9B166AE-D4B3-4171-800D-4E4F067836C1}
 		{0545C236-2CA6-46D6-8B9C-C17BE8AD600D} = {F9B166AE-D4B3-4171-800D-4E4F067836C1}
 		{2B035E3B-BACB-4442-BDF9-1DD485AC0BC5} = {3E2D1792-0D4B-461D-926A-306203BBBFB8}
+		{830C539E-75D2-45A8-B856-F648CFF984A2} = {0545C236-2CA6-46D6-8B9C-C17BE8AD600D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B3B95D6A-52A5-4D22-BC53-93A3F0158A62}
