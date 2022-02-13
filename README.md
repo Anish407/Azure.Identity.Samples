@@ -14,6 +14,6 @@ Will Keep adding more samples.
  <li><a href="./Azure.Identity.Samples/CosmosDb"> Connect to CosmosDB without any keys/ connection strings.</a></li>
  <li><a href="./FuncAppToStorageAccountsRBAC"> Connect to Table and Blob Storage without any keys/ connection strings.</a></li>
  <li>Event Grid: <a href="./SendToEventGrid">Console App That publishes events to Event Grid</a> and <a href="./CustomTopicReceiver">Event Reciever Function App</a></li>
-  <li>Send events to service bus<a href="./ServiceBusSenderFuncC">from an http triggered Func App </a> using a user assigned managed identity </li>
+  <li>Send events to service bus <a href="./ServiceBusSenderFuncC">from an http triggered Func App </a> using a user assigned managed identity </li>
   <li>Receive events from a service bus using <a href="./SvcBusMsiReceiver"> a service bus triggered azure func app </a> using identity based triggers</li>
 </ul>
