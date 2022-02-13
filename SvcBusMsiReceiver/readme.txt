@@ -10,7 +10,7 @@
 
       ServiceBusTrigger("queueName", Connection = "key name in localsettings.json")
 
-4. Add Configuration with to app settings in configuration section of the function app
+4. Add Configuration with to app settings inside the configuration section of the function app
 
  "demo__fullyQualifiedNamespace": "{namespace}.servicebus.windows.net",
 
