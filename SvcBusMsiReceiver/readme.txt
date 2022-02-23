@@ -11,6 +11,17 @@
 
       ServiceBusTrigger("queueName", Connection = "demo") 
       <CONNECTION_NAME_PREFIX> = demo (whatever is specified as the connection property in the trigger attribute)
+ 
+ local.settings.json    
+ {
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "demo__fullyQualifiedNamespace": "{namespace}.servicebus.windows.net",
+    "AZURE_TENANT_ID": ""   //if there are multiple tenants 
+  }
+}
 
 4. Add Configuration with to app settings inside the configuration section of the function app
 
