@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /ServiceBusSenderFunc/Properties
 /SvcBusMsiReceiver/Properties
+/MsiBindings.Receiver/Properties/serviceDependencies.local.json
+/MsiBindings.Receiver/Properties/serviceDependencies.json
+/MsiBindings.Receiver/.gitignore
